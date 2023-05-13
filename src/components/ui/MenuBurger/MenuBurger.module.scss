@@ -1,0 +1,39 @@
+@import 'src/assets/scss/variables';
+
+.menuBurger {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+
+  span {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 100%;
+    height: 2px;
+    background: var(--violet-color);
+  }
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--violet-color);
+  }
+
+  &:before {
+    width: 8px;
+    top: 0;
+  }
+
+  &:after {
+    width: 15px;
+    bottom: 0;
+  }
+}

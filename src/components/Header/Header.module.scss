@@ -1,0 +1,25 @@
+@import 'src/assets/scss/variables';
+
+.header {
+  padding: 30px 0;
+
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 36px;
+    color: var(--violet-color);
+  }
+
+  .headerInfo {
+    display: flex;
+    align-items: center;
+  }
+
+  .headerInput {
+    margin: 0 50px 0 0;
+  }
+}
