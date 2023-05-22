@@ -1,0 +1,21 @@
+@import 'src/assets/scss/variables';
+
+.rainfall {
+  padding: 20px;
+  border: 1px solid var(--purple-color);
+  border-radius: 15px;
+  background: rgb(161,172,251);
+  background: linear-gradient(90deg, rgba(161,172,251,1) 0%, rgba(126,142,254,1) 50%, rgba(114,132,255,1) 100%);
+
+
+  .rainfallRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);
+
+    span:last-child {
+      margin: 15px 0 0 0;
+    }
+  }
+}
