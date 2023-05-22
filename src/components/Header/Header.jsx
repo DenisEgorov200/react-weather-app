@@ -9,7 +9,7 @@ import styles from './Header.module.scss';
 export const Header = () => {
     return (
         <header className={styles.header}>
-            <div className={`${styles.headerContainer} ${styles.container}`}>
+            <div className={`${styles.headerContainer}`}>
                 <h1 className={styles.title}>Weather</h1>
                 <div className={styles.headerInfo}>
                     <InputSearch
